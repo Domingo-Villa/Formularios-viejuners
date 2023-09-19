@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Formulario club viejuner</h2>
+    </header>
+    <main>
+        <form action="/clubviejuner.html" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" autofocus>
+            <br><br>
+
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname">
+            <br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" step="1">
+            <br>
+
+            <p>Gender</p>
+            <input type="radio" id="masculino" name="Sexo" value="masculino">
+            <label for="masculino">masculino</label><br>
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+            <label for="femenino">femenino</label>
+            <br><br>
+
+            <label for="viejuner">Me siento viejuner:</label>
+            <input type="checkbox" id="viejuner" name="viejuner">
+            <br><br>
+
+            <label for="extra">Write something about you</label>
+            <br>
+            <textarea name="extra" id="extra" cols="30" rows="5"></textarea>
+
+            <fieldset>
+                <legend>Phone-email</legend>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="phone">phone number</label>
+            <input type="tel" name="phone" id="phone" placeholder="666-666-666"
+             pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+            </fieldset>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">   
+        </form>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
